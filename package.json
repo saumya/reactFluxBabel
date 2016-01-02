@@ -1,0 +1,16 @@
+{
+  "name": "mbrepair",
+  "version": "1.0.0",
+  "description": "An application using reactJS for a repair shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactjs",
+    "javascript",
+    "js"
+  ],
+  "author": "saumya",
+  "license": "MIT"
+}
