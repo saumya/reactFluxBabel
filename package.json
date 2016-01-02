@@ -2,8 +2,9 @@
   "name": "mbrepair",
   "version": "1.0.0",
   "description": "An application using reactJS for a repair shop",
-  "main": "index.js",
+  "main": "./js/buildReact/index.js",
   "scripts": {
+    "start": "webpack ./js/buildReact/index.js ./js/bin/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -11,6 +12,20 @@
     "javascript",
     "js"
   ],
-  "author": "saumya",
-  "license": "MIT"
+  "author": "Saumya Ray <2saumyaray@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.3.17",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "underscore": "^1.8.3"
+  }
 }
