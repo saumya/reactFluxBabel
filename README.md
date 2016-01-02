@@ -1,6 +1,6 @@
 ReactJS application
 ====================            
-A basic [ReactJS][1] application using [Flow][2] and [Babel][3].
+A basic [ReactJS][1] application using [Flux][2] and [Babel][3].
 
 convert REACT html to js
  - watch : babel --presets react js/src --watch --out-dir js/buildReact
