@@ -2,9 +2,9 @@
   "name": "mbrepair",
   "version": "1.0.0",
   "description": "An application using reactJS for a repair shop",
-  "main": "./js/buildReact/index.js",
+  "main": "./js/buildReact/application.js",
   "scripts": {
-    "start": "webpack ./js/buildReact/index.js ./js/bin/bundle.js",
+    "start": "webpack ./js/buildReact/application.js ./js/bin/bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
