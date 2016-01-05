@@ -7,8 +7,10 @@
   //
   var React = require("react");
   var ReactDOM = require("react-dom");
+  var ApplicationContainer = require("./components/RepairApp.react");
+  //
   ReactDOM.render(
-    <h2>Repair React</h2>,
+    <ApplicationContainer />,
     document.getElementById('ReactApp')
   );
 })();
