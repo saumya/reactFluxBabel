@@ -10,6 +10,7 @@ var RepairApp = React.createClass({
     return(
       <div className="reactApplication">
         <h2>Repair Application Container</h2>
+        <h3>Contact : {this.props.firstName} {this.props.lastName}</h3>
       </div>
     );
   }

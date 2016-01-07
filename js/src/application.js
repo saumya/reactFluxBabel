@@ -10,7 +10,7 @@
   var ApplicationContainer = require("./components/RepairApp.react");
   //
   ReactDOM.render(
-    <ApplicationContainer />,
+    <ApplicationContainer firstName="Saumya" lastName='Ray'/>,
     document.getElementById('ReactApp')
   );
 })();
