@@ -6,8 +6,8 @@ var ContactInfo = React.createClass({
   render:function(){
     return(
       <div>
-        <div>Name : Arjun</div>
-        <div>Contact Number : +91 987654321</div>
+        <div>Name : Jack</div>
+        <div>Contact Number : +11 987654321</div>
       </div>
     );
   }
@@ -17,8 +17,8 @@ class ContactInfo extends React.Component {
   render(){
     return(
       <div>
-        <div>Name : Arjun</div>
-        <div>Contact Number : +91 987654321</div>
+        <div>Name : John</div>
+        <div>Contact Number : +11 987654321</div>
       </div>
     );
   }

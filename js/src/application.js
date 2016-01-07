@@ -11,7 +11,7 @@
   var ApplicationContainer = require("./components/RepairApp.react");
   //
   ReactDOM.render(
-    <ApplicationContainer firstName="Saumya" lastName='Ray'>
+    <ApplicationContainer firstName="John" lastName='Ray'>
       <div>More coming</div>
     </ApplicationContainer>,
     document.getElementById('ReactApp')
