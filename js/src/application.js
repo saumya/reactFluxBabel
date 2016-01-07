@@ -1,5 +1,6 @@
 // Application Entry
 //
+'use strict';
 (function(){
   console.log('Application : Entry');
   // load CSS and make style from it and add the style to the page
@@ -10,7 +11,9 @@
   var ApplicationContainer = require("./components/RepairApp.react");
   //
   ReactDOM.render(
-    <ApplicationContainer firstName="Saumya" lastName='Ray'/>,
+    <ApplicationContainer firstName="Saumya" lastName='Ray'>
+      <div>More coming</div>
+    </ApplicationContainer>,
     document.getElementById('ReactApp')
   );
 })();
